@@ -1,24 +1,12 @@
-import Link from 'next/link'
+import styles from '../styles/Home.module.css'
+import BarraNavegacao from '../componentes/BarraNavegacao'
 
 export default function Inicial() {
   return (
     <>
-      <h1> Página Inicial</h1>
+      <BarraNavegacao />
 
-      <ul>
-        <li>
-          <Link href="/">Inicio</Link>          
-        </li>
-        <li>
-          <Link href="/login">Login</Link>
-        </li>
-        <li>
-          <Link href="/login/cadastro">Cadastrar novo usúario</Link>
-        </li>                
-        <li>
-          <Link href="/indiceOriginal">Indice Original</Link>
-        </li>
-      </ul>
+      <h1> Página Inicial</h1>      
     </>
   )
 }

@@ -1,6 +1,12 @@
+import BarraNavegacao from "../../componentes/BarraNavegacao";
+
 export default function Cadastro(){
 
     return (
-        <h1>Cadastrar login</h1>
+        <>
+            <BarraNavegacao />
+            
+            <h1>Cadastrar login</h1>
+        </>
     )
 }
