@@ -1,8 +1,9 @@
 import Link from 'next/link'
+import styles from '../styles/Navegacao.module.css'
 
 export default function BarraNavegacao() {
     return (
-        <ul>
+        <ul className={styles.navbar}>
             <li>
                 <Link href="/">Inicio</Link>          
             </li>
