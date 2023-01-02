@@ -1,0 +1,32 @@
+.formulario {
+    text-align: center;
+    justify-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(97, 94, 94);
+    color: rgb(224, 217, 217);    
+}
+
+.formulario input {
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    width: 35em;
+    height: 1em;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(54, 52, 52);
+    color: rgb(224, 217, 217);
+    font-size: 18px;
+}
+
+.formulario label {
+    font-size: 22px;
+}
+
+.formulario hr {
+    color: #678;
+    height: .5em;
+    width: 50em;
+    margin: 10px auto;
+}
