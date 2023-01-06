@@ -1,9 +1,9 @@
 class Conta {
 
-    constructor(nm: string, sm: number, ps: string) {
-        this.nome = nm;
-        this.codigo = sm;
-        this.senha = ps;
+    constructor(nome: string, codigo: number, pass: string) {
+        this.nome = nome;
+        this.codigo = codigo;
+        this.senha = pass;
     }
 
     // Getter Setter 

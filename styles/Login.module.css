@@ -1,0 +1,16 @@
+.login {
+    display: block;
+    padding: 15px;
+    background-color: rgb(51, 72, 94);
+    margin: 15em auto;
+}
+
+.loginmenu {
+    display: flex;
+    justify-content: center;
+    color: #FFF;    
+    border-radius: 1ch;
+    padding: 10px;
+    background-color: rgb(51, 68, 77);
+    margin: 2em 15em;
+}
