@@ -15,7 +15,7 @@ export default function Login(){
                     <h1>Login</h1>
                 </div>
 
-                <div className="login-body">
+                <div className={styles.loginbody}>
                     <form action="">
                         <label htmlFor="conta">Conta</label>
                         <input type="text" name='conta' id='conta'/>
@@ -23,7 +23,7 @@ export default function Login(){
                         <label htmlFor="senha">Senha</label>
                         <input type="password" name='senha' id='senha'/>
 
-                        <div className="login-botoes">
+                        <div className={styles.loginbotoes}>
                             <button>Entrar</button>
                             <button>Cadastrar</button>
                         </div>
