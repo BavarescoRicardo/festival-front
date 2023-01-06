@@ -38,6 +38,11 @@
     border-radius: 1ch;
 }
 
+.loginbotoeslink {
+    text-decoration: none;
+    color: #111;
+}
+
 .loginbotoes button {
     color: rgb(53, 70, 90);    
     border-radius: 1ch;

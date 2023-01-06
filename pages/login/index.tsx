@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../../styles/Login.module.css'
+import Link from 'next/link'
 
 export default function Login(){
 
@@ -25,7 +26,7 @@ export default function Login(){
 
                         <div className={styles.loginbotoes}>
                             <button>Entrar</button>
-                            <button>Cadastrar</button>
+                            <button><Link href="/login/cadastro" className={styles.loginbotoeslink}>Cadastrar</Link></button>
                         </div>
                         
                     </form>    
