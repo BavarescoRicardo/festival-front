@@ -23,6 +23,9 @@ export default function BarraNavegacao() {
                 <li>
                     <Link href="/formulario">Inscrição</Link>
                 </li>
+                <li>
+                    <Link href="/apresentacao">Apresentações</Link>
+                </li>
             </ul>
         </>
     )
