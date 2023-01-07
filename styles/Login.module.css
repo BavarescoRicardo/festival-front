@@ -14,7 +14,8 @@
     border-radius: 1ch;
     padding: 10px;
     background-color: rgb(26, 34, 37);
-    margin: 2em 15em;
+    margin: 2em auto;
+    width: 50%;
 }
 
 .loginbody {
