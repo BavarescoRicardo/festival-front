@@ -6,17 +6,11 @@ export default function Apresentacao(){
 
     return (
 <>
-  {/* component */}
-  <style
-    dangerouslySetInnerHTML={{
-      __html:
-        "\n  #journal-scroll::-webkit-scrollbar {\n            width: 4px;\n            cursor: pointer;\n            /*background-color: rgba(229, 231, 235, var(--bg-opacity));*/\n\n        }\n        #journal-scroll::-webkit-scrollbar-track {\n            background-color: rgba(229, 231, 235, var(--bg-opacity));\n            cursor: pointer;\n            /*background: red;*/\n        }\n        #journal-scroll::-webkit-scrollbar-thumb {\n            cursor: pointer;\n            background-color: #a0aec0;\n            /*outline: 1px solid slategrey;*/\n        }\n"
-    }}
-  />
-  <div className="container mx-auto py-10 flex justify-center h-screen">
-    <div className="w-4/12 pl-4  h-full flex flex-col">
+
+  <div className="container mx-auto py-12 flex justify-center h-screen">
+    <div className="w-8/12 pl-4  h-full flex flex-col">
       <div className="bg-white text-sm text-gray-500 font-bold px-5 py-2 shadow border-b border-gray-300">
-        Tracking events
+        Lista de apresentações
       </div>
       <div
         className="w-full h-full overflow-auto shadow bg-white"
@@ -25,9 +19,8 @@ export default function Apresentacao(){
         <table className="w-full">
           <tbody className="">
             <tr
-              className="relative transform scale-100
+              className="relative transform scale-100 
                                   text-xs py-1 border-b-2 border-blue-100 cursor-default
-
                           bg-blue-500 bg-opacity-25"
             >
               <td className="pl-5 pr-3 whitespace-no-wrap">
