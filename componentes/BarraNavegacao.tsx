@@ -26,6 +26,9 @@ export default function BarraNavegacao() {
                 <li>
                     <Link href="/apresentacao">Apresentações</Link>
                 </li>
+                <li>
+                    <Link href="/apresentacao/cartao">Apresentações Card</Link>
+                </li>                
             </ul>
         </>
     )
