@@ -6,7 +6,9 @@ export default function Apresentacao(){
 
     return (
 <>
-
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
   <div className="container mx-auto py-12 flex justify-center h-screen">
     <div className="w-8/12 pl-4  h-full flex flex-col">
       <div className="bg-white text-sm text-gray-500 font-bold px-5 py-2 shadow border-b border-gray-300">

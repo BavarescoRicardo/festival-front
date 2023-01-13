@@ -5,7 +5,8 @@ export default function Formulario() {
   return (
     <>
         <Head>
-            <title>Inscrição</title>    
+            <title>Inscrição</title>   
+            <meta name="viewport" content="width=device-width, initial-scale=1" /> 
         </Head>
         <div className={styles.formulario}>
             <div className="formulario-titulo">

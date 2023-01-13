@@ -7,7 +7,8 @@ export default function Login(){
     return (
         <> 
             <Head>
-                <title>Página de login</title>    
+                <title>Página de login</title> 
+                <meta name="viewport" content="width=device-width, initial-scale=1" />   
             </Head>                        
 
 
