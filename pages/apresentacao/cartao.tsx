@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import styles from '../../styles/Cartao.module.css'
+import ComponenteModal from "../../componentes/ModalComponente"
 import { useState } from 'react';
-
-import logo from '../../public/imagens/fotos/fotoF.jpg';
 
 export default function Cartao(){
 
     const [cantor, setCantor] = useState([1,2,3,4,5,6,7,8,9,10,11,12]);
     const [foto, setFoto] = useState([]);
+    const [showModal, setShowModal] = useState(false);
     
     return (
         <>
@@ -30,6 +30,18 @@ export default function Cartao(){
                     </div>
                 ))}
             </div>
+
+
+            <button
+        className="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+        type="button"
+        onClick={() => setShowModal(true)}
+      >
+        Open regular modal
+      </button>
+      {showModal ? (
+        <ComponenteModal/>
+      ) : null}
 
         </>
     )
