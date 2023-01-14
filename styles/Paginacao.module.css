@@ -1,0 +1,19 @@
+.page {
+    display: flex;
+    background-color: rgba(218, 233, 243, 0.719);
+    padding: 1px 1px;
+    margin: .1ch;
+    border-radius: 1ch;
+
+}
+
+.pageitem {
+    color: rgb(23, 36, 53);
+    border: 1px solid black;
+    border-radius: .35ch;
+    margin: 0 1ch;
+}
+
+.navbar a:hover {
+    color: rgba(56, 67, 139, 0.836);
+}
