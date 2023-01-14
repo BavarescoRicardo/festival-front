@@ -1,0 +1,10 @@
+.cantor {
+    display: flex;
+    justify-content: space-around;
+    padding: 1ch;
+    background-color: rgb(29, 150, 75);
+    margin: 4ch;
+    min-width: 8em;
+    max-width: 20%;
+    border-radius: 1ch;
+}
