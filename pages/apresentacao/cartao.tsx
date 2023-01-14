@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 export default function Cartao(){
 
-    const [cantor, setCantor] = useState([1,2,3,4]);
+    const [cantor, setCantor] = useState([1,2,3,4,5,6,7,8,9,10,11,12]);
     
     return (
         <>
@@ -12,9 +12,9 @@ export default function Cartao(){
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             
-
-            {cantor.map(element => (
-                <div className={styles.cantor}>                            
+            <div className={styles.cantor}>                            
+                {cantor.map(element => (
+                
                     <div className="bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div className="flex flex-col items-center pb-10">
                             <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Foto cantor"/>
@@ -25,9 +25,8 @@ export default function Cartao(){
                             </div>
                         </div>
                     </div>
-                </div>
-
-            ))}
+                ))}
+            </div>
 
         </>
     )
