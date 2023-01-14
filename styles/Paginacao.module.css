@@ -9,7 +9,7 @@
 
 .pageitem {
     color: rgb(23, 36, 53);
-    border: 1px solid black;
+    border: .5px solid rgba(105, 118, 128, 0.719);
     border-radius: .35ch;
     margin: 0 1ch;
 }
