@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+  min-height: 100vh;
+  background-color: #000;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 10%;
+  height: 10ch;
+  background-color: rgb(113, 147, 151);
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  font-size: 0.85rem;
+  max-width: 90%;
+  min-height: 40ch;
+  background-color: rgb(122, 109, 109);
+  margin: 5ch auto;
+}
+
+.fotos {
+  display: flex;  
+  margin: 5ch;
+  min-width: 50ch;
+  max-width: 30%;
+  min-height: 30ch;
+  max-height: 20%;
+  border-radius: 5ch;
+  border: 1px solid;
+  background-color: rgb(237, 239, 241);
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .content {
+    padding: 4rem;
+  }
+
+}
