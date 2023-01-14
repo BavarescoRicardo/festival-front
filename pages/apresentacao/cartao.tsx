@@ -2,9 +2,12 @@ import Head from 'next/head'
 import styles from '../../styles/Cartao.module.css'
 import { useState } from 'react';
 
+import logo from '../../public/imagens/fotos/fotoF.jpg';
+
 export default function Cartao(){
 
     const [cantor, setCantor] = useState([1,2,3,4,5,6,7,8,9,10,11,12]);
+    const [foto, setFoto] = useState([]);
     
     return (
         <>
@@ -17,7 +20,7 @@ export default function Cartao(){
                 
                     <div className="bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div className="flex flex-col items-center pb-10">
-                            <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Foto cantor"/>
+                            <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src="/imagens/fotos/fotoF.jpg" alt="Foto cantor"/>
                             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Cantor N# - {element}</h5>
                             <span className="text-sm text-gray-500 dark:text-gray-400">Categoria - NNN</span>
                             <div className="flex mt-4 space-x-3 md:mt-6">
