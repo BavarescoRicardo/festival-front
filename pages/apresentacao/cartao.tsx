@@ -76,7 +76,7 @@ export default function Cartao(){
                     </div>
                 </div>
             ) : showModal == 2 ? 
-                <AtruibuiNota/>
+                <AtruibuiNota showModal = {showModal} setShowModal = {setShowModal}/>
                 : null
             }
         </>
