@@ -24,10 +24,10 @@ export default function BarraNavegacao() {
                     <Link href="/formulario">Inscrição</Link>
                 </li>
                 <li>
-                    <Link href="/apresentacao">Apresentações</Link>
+                    <Link href="/apresentacao">Notas</Link>
                 </li>
                 <li>
-                    <Link href="/apresentacao/cartao">Apresentações Card</Link>
+                    <Link href="/apresentacao/cartao">Apresentações</Link>
                 </li>                
             </ul>
         </>
