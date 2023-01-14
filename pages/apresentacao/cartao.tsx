@@ -24,7 +24,7 @@ export default function Cartao(){
                             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Cantor N# - {element}</h5>
                             <span className="text-sm text-gray-500 dark:text-gray-400">Categoria - NNN</span>
                             <div className="flex mt-4 space-x-3 md:mt-6">
-                                <a href="#" className="px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Dados da apresentação</a>
+                                <a href="#" onClick={() => setShowModal(true)} className="px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Dados da apresentação</a>
                             </div>
                         </div>
                     </div>
@@ -32,15 +32,8 @@ export default function Cartao(){
             </div>
 
 
-            <button
-        className="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-        type="button"
-        onClick={() => setShowModal(true)}
-      >
-        Open regular modal
-      </button>
       {showModal ? (
-        <ComponenteModal/>
+        <ComponenteModal showModal = {showModal} setShowModal = {setShowModal}/>
       ) : null}
 
         </>
