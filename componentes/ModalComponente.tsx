@@ -3,7 +3,6 @@ import { useState } from 'react'
 export default function ModalComponente(props: any) {
     const [showModal, setShowModal] = useState(false);
     return (
-        <>
             <div
                 className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
             >
@@ -52,9 +51,7 @@ export default function ModalComponente(props: any) {
                     </button>
                     </div>
                 </div>
-                </div>
             </div>
-            <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-        </>
+        </div>
     )
 }

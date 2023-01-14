@@ -31,11 +31,9 @@ export default function Cartao(){
                 ))}
             </div>
 
-
-      {showModal ? (
-        <ComponenteModal showModal = {showModal} setShowModal = {setShowModal}/>
-      ) : null}
-
+            {showModal ? (
+                <ComponenteModal showModal = {showModal} setShowModal = {setShowModal}/>
+            ) : null}
         </>
     )
 
