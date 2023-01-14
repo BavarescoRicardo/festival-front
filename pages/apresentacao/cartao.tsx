@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import styles from '../../styles/Cartao.module.css'
 import { useState } from 'react';
+import AtruibuiNota from '../nota/AtruibuiNota'
 
 export default function Cartao(){
 
     const [cantor, setCantor] = useState([1,2,3,4,5,6,7,8,9,10,11,12]);
     const [foto, setFoto] = useState([]);
-    const [showModal, setShowModal] = useState(false);
+    const [showModal, setShowModal] = useState(0);
     
     return (
         <>
@@ -23,7 +24,7 @@ export default function Cartao(){
                             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Cantor N# - {element}</h5>
                             <span className="text-sm text-gray-500 dark:text-gray-400">Categoria - NNN</span>
                             <div className="flex mt-4 space-x-3 md:mt-6">
-                                <a href="#" onClick={() => setShowModal(true)} className="px-4 py-2 text-sm font-medium text-center bg-blue-300 rounded-lg hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Dados da apresentação</a>
+                                <a href="#" onClick={() => setShowModal(1)} className="px-4 py-2 text-sm font-medium text-center bg-blue-300 rounded-lg hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Dados da apresentação</a>
                             </div>
                         </div>
                     </div>
@@ -31,7 +32,7 @@ export default function Cartao(){
             </div>
 
             {/* Condiçao para conteuso modal */}
-            {showModal ? (
+            {showModal == 1 ? (
                 <div
                     className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
                 >
@@ -43,7 +44,7 @@ export default function Cartao(){
                             </h3>
                             <button
                                 className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                                onClick={() => setShowModal(false)}
+                                onClick={() => setShowModal(0)}
                             >
                                 <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
                                 ×
@@ -63,18 +64,21 @@ export default function Cartao(){
                             <button
                                 className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                                 type="button"
-                                onClick={() => setShowModal(false)}
+                                onClick={() => setShowModal(0)}
                             >
                                 Fechar
                             </button>
                             <div className="">
-                                <a href="#" onClick={() => setShowModal(true)} className="px-4 py-2 text-sm font-medium text-center bg-blue-300 rounded-lg hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"> Atribuir nota </a>
+                                <a href='#' onClick={() => setShowModal(2)} className="px-4 py-2 text-sm font-medium text-center bg-blue-300 rounded-lg hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"> Atribuir nota </a>
                             </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            ) : null}
+            ) : showModal == 2 ? 
+                <AtruibuiNota/>
+                : null
+            }
         </>
     )
 
