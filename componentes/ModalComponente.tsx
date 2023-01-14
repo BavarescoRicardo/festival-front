@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function ModalComponente(props) {
+export default function ModalComponente(props: any) {
     const [showModal, setShowModal] = useState(false);
     return (
         <>
