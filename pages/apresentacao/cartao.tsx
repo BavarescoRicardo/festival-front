@@ -55,7 +55,7 @@ export default function Cartao(){
                             <div className="relative p-6 flex-auto">
                             <p className="my-4 text-slate-500 text-lg leading-relaxed">
                                 Categoria <br />
-                                Notas <br />
+                                Classificação <br />
                                 Data <br />
                             </p>
                             </div>
