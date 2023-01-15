@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 1rem;
+  padding: 1rem;  
 }
 
 .titulo {
@@ -31,6 +31,7 @@
   max-width: 90%;
   min-height: 40ch;
   background-color: rgb(221, 231, 235);
+  border-radius: 1ch;
   margin: 5ch auto;
 }
 
@@ -55,6 +56,31 @@
   border-radius: 1ch;
   /* border: 1px solid; */
 
+}
+
+.texto {   
+  background-color: rgb(37, 45, 49);
+  margin: 5ch 0;
+  max-width: 28%;
+  border-radius: 1ch;
+  /* border: 1px solid; */
+}
+
+.informacoes {   
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(100, 106, 109);
+  margin: 0 2ch;
+  margin-top: 6ch;
+  margin-bottom: 25ch;
+  max-height: 20ch;  
+  border-radius: 1ch;
+  /* border: 1px solid; */
+}
+
+.informacoes p {   
+  overflow: hidden;
+  max-height: 20ch;
 }
 
 /* Mobile */

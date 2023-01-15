@@ -13,11 +13,6 @@ export default function Inicial() {
         </div>
 
         <div className={styles.body}>
-          <div className={styles.informacoes}>
-            <div className={styles.fotos}>
-
-            </div>        
-          </div>
 
           <div className={styles.description}>
             <div className={styles.fotos}>
@@ -51,6 +46,32 @@ export default function Inicial() {
             <div className={styles.fotos}>
 
             </div>
+          </div>
+
+          <div className={styles.texto}>
+            <div className={styles.informacoes}>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, a fugiat. Non suscipit 
+                impedit veritatis, iure laudantium accusamus necessitatibus eveniet saepe dignissimos vel facere est. 
+                Enim eum sapiente voluptates accusamus.
+              </p>       
+            </div>  
+
+            <div className={styles.informacoes}>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, a fugiat. Non suscipit 
+                impedit veritatis, iure laudantium accusamus necessitatibus eveniet saepe dignissimos vel facere est. 
+                Enim eum sapiente voluptates accusamus.
+              </p>       
+            </div>    
+
+            <div className={styles.informacoes}>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, a fugiat. Non suscipit 
+                impedit veritatis, iure laudantium accusamus necessitatibus eveniet saepe dignissimos vel facere est. 
+                Enim eum sapiente voluptates accusamus.
+              </p>       
+            </div>                
           </div>
         </div>
       </div>   
