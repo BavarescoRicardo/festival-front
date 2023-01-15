@@ -32,7 +32,7 @@
 .fotos {
   display: flex;  
   margin: 5ch;
-  min-width: 50ch;
+  min-width: 40ch;
   max-width: 30%;
   min-height: 30ch;
   max-height: 20%;
@@ -44,7 +44,8 @@
 .fotos img {   
   margin: auto auto;
   width: 95%;
-  min-height: 95%;
+  height: 20ch;
+  min-height: 85%;
   border-radius: 1ch;
   border: 1px solid;
 
