@@ -30,7 +30,7 @@
   font-size: 0.85rem;
   max-width: 90%;
   min-height: 40ch;
-  background-color: rgb(221, 231, 235);
+  background-color: rgb(202, 214, 219);
   border-radius: 1ch;
   margin: 5ch auto;
 }
@@ -59,20 +59,13 @@
 }
 
 .texto {   
-  background-color: rgb(37, 45, 49);
-  margin: 5ch 0;
   max-width: 28%;
   border-radius: 1ch;
-  /* border: 1px solid; */
 }
 
-.informacoes {   
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgb(100, 106, 109);
-  margin: 0 2ch;
-  margin-top: 6ch;
-  margin-bottom: 25ch;
+.informacoes {
+  background-color: rgb(222, 231, 236);
+  margin: 15ch 2ch;  
   max-height: 20ch;  
   border-radius: 1ch;
   /* border: 1px solid; */
