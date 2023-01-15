@@ -11,37 +11,46 @@ export default function Inicial() {
         <div className={styles.titulo}>
           <h1> Página Inicial</h1>
         </div>
-        <div className={styles.description}>
-          <div className={styles.fotos}>
-            <img className="rounded-sm" src="/imagens/fimusi/20220909_195657.jpg" alt="Foto cantor"/>
+
+        <div className={styles.body}>
+          <div className={styles.informacoes}>
+            <div className={styles.fotos}>
+
+            </div>        
           </div>
 
-          <div className={styles.fotos}>
+          <div className={styles.description}>
+            <div className={styles.fotos}>
+              <img className="rounded-sm" src="/imagens/fimusi/20220909_195657.jpg" alt="Foto cantor"/>
+            </div>
 
-          </div>
+            <div className={styles.fotos}>
 
-          <div className={styles.fotos}>
+            </div>
 
-          </div>
+            <div className={styles.fotos}>
 
-          <div className={styles.fotos}>
+            </div>
 
-          </div>
+            <div className={styles.fotos}>
 
-          <div className={styles.fotos}>
+            </div>
 
-          </div>
+            <div className={styles.fotos}>
 
-          <div className={styles.fotos}>
+            </div>
 
-          </div>
+            <div className={styles.fotos}>
 
-          <div className={styles.fotos}>
+            </div>
 
-          </div>
+            <div className={styles.fotos}>
 
-          <div className={styles.fotos}>
+            </div>
 
+            <div className={styles.fotos}>
+
+            </div>
           </div>
         </div>
       </div>   
