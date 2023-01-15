@@ -5,7 +5,7 @@
   align-items: flex-start;
   padding: 1rem;
   min-height: 100vh;
-  background-color: #000;
+  /* background-color: rgb(243, 255, 251); */
 }
 
 .titulo {
@@ -14,7 +14,7 @@
   align-self: center;
   width: 10%;
   height: 10ch;
-  background-color: rgb(113, 147, 151);
+  /* background-color: rgb(113, 147, 151); */
 }
 
 .description {
@@ -25,7 +25,7 @@
   font-size: 0.85rem;
   max-width: 90%;
   min-height: 40ch;
-  background-color: rgb(122, 109, 109);
+  background-color: rgb(221, 231, 235);
   margin: 5ch auto;
 }
 
@@ -38,6 +38,7 @@
   max-height: 20%;
   border-radius: 5ch;
   border: 1px solid;
+  border-color: rgb(172, 184, 189);;
   background-color: rgb(237, 239, 241);
 }
 
@@ -47,7 +48,7 @@
   height: 20ch;
   min-height: 85%;
   border-radius: 1ch;
-  border: 1px solid;
+  /* border: 1px solid; */
 
 }
 
