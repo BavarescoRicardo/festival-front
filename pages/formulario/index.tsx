@@ -34,15 +34,17 @@ export default function Formulario() {
                 <input type="text" />
 
                 <label htmlFor=""> Responsável</label>
-                <input type="date" />
-
-                <hr />
+                <input type="date" />                
 
                 <div className={styles.selecaoness}>
                     <p>Nescessidade</p>
-                    <label htmlFor="ness"> Sim </label> <input type="radio" name="ness" id="ness" value='sim' /> 
-                    <label htmlFor="ness"> Não </label> <input type="radio" name="ness" id="ness" value='nao'/> 
+                    <div className={styles.selecaonessopcoes}>
+                        <label htmlFor="ness"> Sim </label> <input type="radio" name="ness" id="ness" value='sim' /> 
+                        <label htmlFor="ness"> Não </label> <input type="radio" name="ness" id="ness" value='nao'/> 
+                    </div>
                 </div>
+
+                <hr />
 
                 <div className={styles.musica}>
                     <h2>Música</h2>
